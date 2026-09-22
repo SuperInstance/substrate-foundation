@@ -1,0 +1,20 @@
+{
+  "name": "@superinstance/substrate-foundation",
+  "version": "0.1.0",
+  "description": "The substrate foundation: 11 opcodes + 11% tolerance + FNV-1a 64-bit canary. The core runtime that everything builds on.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "foundation",
+    "substrate",
+    "canon",
+    "jev-quilt",
+    "runtime"
+  ],
+  "author": "SuperInstance",
+  "license": "MIT",
+  "dependencies": {
+    "@superinstance/opcode-canon": "file:../opcode-canon",
+    "@superinstance/three-forms-of-evidence": "file:../three-forms-of-evidence"
+  }
+}
