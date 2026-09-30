@@ -16,5 +16,8 @@
   "dependencies": {
     "@superinstance/opcode-canon": "file:../opcode-canon",
     "@superinstance/three-forms-of-evidence": "file:../three-forms-of-evidence"
+  },
+  "scripts": {
+    "test": "node --test test/"
   }
 }
